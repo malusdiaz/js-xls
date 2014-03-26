@@ -1,0 +1,39 @@
+Read-me for Installing SheetJS on Winbows.
+
+Prerequisites:
+
+	1. Install Node.JS:	http://nodejs.org/
+		a. Run "node" at the command line.
+		b. Verify 1+1 = 2.
+	2. Install Python:	https://www.python.org/
+		a. Besure to click "Add Python to Path".
+		b. Run "python" at the command line.
+		c. Verify 1+1 = 2.
+	3. Install Git-HUB Windows: https://help.github.com/articles/set-up-git
+	
+	4. Install Git for windows: http://git-scm.com/downloads
+		a. Add Git to the path
+	5. Clone All Repositories from  https://github.com/SheetJS/
+	
+	6. Install MAKE for windows:
+		a. http://gnuwin32.sourceforge.net/packages/make.htm
+		b. Add directory to your path.
+	
+Installing:
+
+1.	Execute the following commands from GitHub Root Folder:
+
+		npm install -g express
+		cd help && npm install
+		npm install simplehttpserver -g
+		
+1. Execute the following 'command' from the GitHub root folder: 
+		for /D %i in (*) DO (
+		cd %i
+		echo yes|express %CD%
+		npm install
+		cd ..
+		)
+
+2.
+
